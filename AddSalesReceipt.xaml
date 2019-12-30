@@ -1,0 +1,19 @@
+﻿<Window x:Class="PayrollUi.AddSalesReceipt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PayrollUi"
+        mc:Ignorable="d"
+        Title="AddSalesReceipt" Height="450" Width="350">
+    <Grid>
+        <Button Content="添加" HorizontalAlignment="Left" Margin="69,340,0,0" VerticalAlignment="Top" Width="75" FontSize="15" Height="30" Click="Button_Click"/>
+        <Button Content="取消" HorizontalAlignment="Left" Margin="211,340,0,0" VerticalAlignment="Top" Width="75" FontSize="15" Height="30" Click="Button_Click_1"/>
+        <Label Content="添加销售记录" HorizontalAlignment="Left" Margin="109,48,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="员工编号：" HorizontalAlignment="Left" Margin="59,142,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="销售数量：" HorizontalAlignment="Left" Margin="59,233,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="29" Margin="166,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" VerticalContentAlignment="Center" FontSize="15"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Height="29" Margin="166,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" VerticalContentAlignment="Center" FontSize="15" RenderTransformOrigin="0.505,1.726"/>
+
+    </Grid>
+</Window>
